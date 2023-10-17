@@ -1,7 +1,6 @@
 #include <iostream>
 #include <vector>
 
-// Función para verificar si un número es primo
 bool esPrimo(int num) {
     if (num < 2) return false;
     for (int i = 2; i * i <= num; ++i) {
@@ -10,7 +9,6 @@ bool esPrimo(int num) {
     return true;
 }
 
-// Función para calcular la suma de los dígitos de un número
 int sumaDigitos(int num) {
     int suma = 0;
     while (num > 0) {
