@@ -5,7 +5,7 @@ using namespace std;
 const int MAX = 2000000;
 
 int main() {
-    int t = 1; // Set t to 1 since we only have one test case
+    int t = 1; 
     for (int a0 = 0; a0 < t; a0++) {
         vector<bool> isPrime(MAX, true);
         isPrime[0] = isPrime[1] = false;
